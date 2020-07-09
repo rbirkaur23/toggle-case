@@ -1,0 +1,8 @@
+s=input("Enter string: ")
+ans=""
+for i in range(0,len(s)):
+    if i%2==0:
+        ans=ans+s[i].upper()
+    else:
+        ans=ans+s[i].lower()
+print(ans)
